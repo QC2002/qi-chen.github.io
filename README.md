@@ -7,6 +7,6 @@ Welcome to my personal website! This site showcases my projects, skills, and con
 - **RFID-based Anti-Theft Door System**: An RFID solution for secure access control.
 
 ## Contact
-- Email: qi.chen@example.com
-- LinkedIn: [Qi Chen on LinkedIn](https://www.linkedin.com/in/qi-chen)
+- Email: CarrieC9527@gmail.com
+- LinkedIn: [Qi Chen on LinkedIn]([https://www.linkedin.com/in/qi-chen-b01664252/])
 
