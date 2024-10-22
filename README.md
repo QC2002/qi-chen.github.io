@@ -8,5 +8,5 @@ Welcome to my personal website! This site showcases my projects, skills, and con
 
 ## Contact
 - Email: CarrieC9527@gmail.com
-- LinkedIn: [Qi Chen on LinkedIn]([https://www.linkedin.com/in/qi-chen-b01664252/])
+- LinkedIn: [Qi Chen on LinkedIn](https://www.linkedin.com/in/qi-chen-b01664252/)
 
