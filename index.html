@@ -49,12 +49,24 @@
             width: 100%;
         }
         .project-card {
-            background-color: white;
-            border: 1px solid #ddd;
-            border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+        /* For right-side alignment */
+        .project-right {
+            flex-direction: row-reverse;
+        }
+        
+        .project-image {
+            width: 50%; /* Adjust as needed */
+        }
+        
+        .project-details {
+            width: 45%; /* Adjust as needed */
             padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         .project-title {
             font-size: 20px;
@@ -73,15 +85,15 @@
     </header>
     
     <nav>
-        <a href="#about">About Me</a>
-        <a href="#programs">Programs</a>
-        <a href="#experiences">Working Experiences</a>
-        <a href="#contact">Contact</a>
+        <a href="#About">About Me</a>
+        <a href="#Programs">Programs</a>
+        <a href="#Experiences">Working Experiences</a>
+        <a href="#Contact">Contact</a>
     </nav>
     
     <div class="container">
         <!-- About Me Section -->
-        <section id="about">
+        <section id="About">
             <h2 class="section-title">About Me</h2>
 
             <!-- Add an image of yourself -->
@@ -91,20 +103,22 @@
     
             <p>My interests range from embedded systems to medical robotics, and I am constantly exploring the intersection of technology and healthcare. My recent projects include wearable healthcare devices and advanced RFID-based systems for smart environments.</p>
 
-            <!-- Add an image related to your projects -->
-    <img src="images/engineering-project.JPG" alt="Working on Engineering Project" style="width: 100%; margin-top: 20px;">
-
     <p>Outside of academics, I have a deep interest in astrology, and I enjoy exploring the mysteries of the universe through this lens. My parents have been major influences in my life. My father, an energy engineer, instilled in me a critical and innovative approach to problem-solving, while my mother, with her MBA and CPA qualifications, has taught me the importance of discipline and financial acumen in both personal and professional endeavors.</p>
 </section>
         
         <!-- Programs Section -->
-        <section id="programs">
+        <section id="Programs">
             <h2 class="section-title">Programs</h2>
             
             <!-- Program 1 (C++ with Arduino) -->
-            <div class="project-card">
-                <h3 class="project-title">C++ with Arduino Project</h3>
-                <p class="project-description">Designed and implemented an embedded system using Arduino and C++ to control sensors and actuators in a robotic platform.</p>
+            <div class="project-card project-right">
+                <div class="project-image">
+                    <img src="images/robot car.jpg" alt="Robot car image" style="width: 100%;">
+                </div>
+                <div class="project-details">
+                    <h3 class="project-title">Robot car with Arduino and C/C++</h3>
+                    <p class="project-description">Designed and implemented a robotic car platform using Arduino for sensor control and C/C++ for embedded programming. The project involved designing the car's chassis, integrating various sensors (e.g., IR, ultrasonic), and programming the car to navigate obstacles autonomously.</p>
+                </div>
             </div>
             
             <!-- Program 2 (OOP) -->
@@ -121,7 +135,7 @@
         </section>
         
         <!-- Working Experiences Section -->
-        <section id="experiences">
+        <section id="Experiences">
             <h2 class="section-title">Working Experiences</h2>
             
             <!-- Experience 1 -->
@@ -140,10 +154,11 @@
         </section>
         
         <!-- Contact Section -->
-        <section id="contact">
+        <section id="Contact">
             <h2 class="section-title">Contact</h2>
             <p>Email: <a href="mailto:CarrieC9527@gmail.com">CarrieC9527@gmail.com</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/qi-chen-b01664252/" target="_blank">linkedin.com/in/qi-chen</a></p>
+            <p>Phonenumber: <a href="07596826997" target="_blank">+447596826997</a></p>
         </section>
     </div>
     
